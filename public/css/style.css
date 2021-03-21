@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Handlee&family=Open+Sans:wght@300;400&family=Pompiere&display=swap');
+/*font-family: 'Dekko', cursive;*/
+/*font-family: 'Handlee', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Pompiere', cursive;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 64%;
+
+}
+
+.hide, .nav-btn {
+    display: none;
+}
+
+.max-width {
+    width: 98vw;
+}
+
+a {
+    font-family: 'Handlee', cursive;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 4rem;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    display: block;
+    font-family: 'Pompiere', cursive;
+
+}
+
+.navbar .max-width {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar .navbar-menu .menu-btn {
+    display: inline-block;
+    padding: 4rem 2rem 0 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-btn img {
+    width: 4rem;
+}
+
+.navbar .max-width .navbar-menu a {
+    font-family: 'Dekko', cursive;
+    color: #7576a4;
+
+
+}
+
+.navbar .max-width .navbar-menu a:hover {
+    color: #000;
+}
+
+.home {
+    height: 90vh;
+}
+
+.home .max-width {
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../assets/background.png");
+    background-size: contain;
+}
+
+.home .max-width .left {
+    max-width: 45rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 2rem;
+}
+
+
+.home .max-width .left .home-btn {
+    padding: 1rem 2rem;
+    background: #7576a4;
+
+    border-radius: 50rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.home .max-width .right figure img,
+.footer .max-width .top .right figure img {
+    width: 60rem;
+}
+
+.features .max-width, .footer .max-width .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .max-width .right .sub-heading {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.features .left {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.features .left figure img {
+    width: 35rem;
+
+}
+
+.features .max-width .right {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 2rem;
+}
+
+
+.features .max-width .right a {
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #7576a4;
+    font-weight: bold;
+    padding: 2rem 6rem;
+    border-radius: 50rem;
+    text-decoration: none;
+}
+
+.features .max-width .right a:before {
+    content: '';
+    background: url("../assets/right-btn.svg");
+    padding: 1rem 2rem;
+}
+
+.pricing .max-width {
+    margin-top: 3rem;
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    background: url("../assets/b2.png");
+    background-size: contain;
+}
+
+.pricing .max-width .left {
+    max-width: 50rem;
+}
+
+.pricing .max-width .left img {
+    width: 15rem;
+}
+
+.pricing .max-width .left p {
+    padding-top: 2rem;
+}
+
+.pricing .max-width .right {
+    position: relative;
+}
+
+.pricing .max-width .right .box img {
+    width: 6rem;
+    margin-right: 2rem;
+}
+
+.pricing .max-width .right .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f5f9ff;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    color: #adb5bd;
+}
+
+.pricing .max-width .right .f-box2 {
+    position: relative;
+    right: 8rem;
+
+}
+
+.Resources {
+    background-size: contain;
+    position: relative;
+    background: url("../assets/b4.png") 100% 100%;
+}
+
+
+.Resources .max-width .heading {
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+}
+
+.Resources .max-width p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30rem;
+    padding: 3rem;
+    background: white;
+    margin-top: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card h3 {
+    font-family: 'Open Sans', sans-serif;
+
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.card p {
+    font-family: 'Handlee', cursive;
+    font-size: 1.2rem;
+}
+
+.card img {
+    max-width: 27rem;
+    border-radius: 2rem;
+}
+
+.card a {
+    margin-top: 2rem;
+    padding: 2rem 8rem;
+    border: 2px solid #7da2ff;
+    border-radius: 10rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.card a:hover {
+    background: #7da2ff;
+}
+
+.footer {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.footer .max-width {
+    width: 100%;
+    background: #7da2ff url("../assets/b3.png");
+    background-size: cover;
+}
+
+.footer .max-width .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .max-width .top .left {
+    max-width: 40rem;
+    padding: 3rem;
+    color: #fef7fe;
+
+}
+
+.footer .max-width .top .left .heading {
+    padding-bottom: 4rem;
+}
+
+
+.footer .max-width .top .left .footer-btn {
+    padding: 2rem 6rem;
+    background: #f5f9ff;
+    font-size: 1.6rem;
+    border-radius: 4rem;
+    font-weight: bold;
+    color: #7DA2FF;
+    text-decoration: none;
+}
+
+.footer .max-width .top .right figure img {
+    width: 40rem;
+}
+
+.footer .max-width .content {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .content div {
+    display: block;
+    color: #f5f9ff;
+}
+
+.footer .content h3 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.footer .content a {
+    color: #f5f9ff;
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: block;
+}
+
+footer {
+    padding-top: 2rem;
+    color: #f5f9ff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1100px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+
+    .pricing .max-width .right .box {
+        padding: 1rem;
+    }
+
+    .pricing .max-width .left img {
+        width: 13rem;
+    }
+
+    .pricing .max-width .right .box img {
+        width: 5rem;
+    }
+
+    .card {
+        width: 28rem;
+    }
+
+    .card img {
+        max-width: 24rem;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .home .max-width .right figure img {
+        width: 50rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-btn {
+        display: block;
+    }
+
+    .navbar .max-width {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3rem;
+    }
+
+    .navbar .navbar-menu a {
+        display: block;
+    }
+
+    .home .max-width .right figure img {
+        width: 40rem;
+    }
+
+    .pricing .max-width {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .pricing .max-width .left .heading {
+        font-size: 2.5rem;
+    }
+
+    .Resources .max-width .card-container .card {
+        width: 24rem;
+
+    }
+
+    .Resources .max-width .card img {
+        width: 20rem;
+    }
+
+    .Resources .max-width .card h3 {
+        font-size: 2rem;
+    }
+
+    .card a {
+        margin-top: 1rem;
+    }
+
+    .Resources .max-width .card p {
+        font-size: 1.5rem;
+    }
+
+    .Resources .max-width p {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .Resources .max-width .card a {
+        padding: 1.5rem 6rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .Resources .max-width .card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Resources .max-width .card-container .card {
+        width: 30rem;
+    }
+
+    .Resources .max-width .card img {
+        width: 27rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .home .max-width {
+        flex-direction: column;
+    }
+
+    .home .max-width .heading {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .home .max-width .sub-heading {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .home .max-width .right img {
+        margin-top: 2rem;
+        width: 60rem;
+    }
+
+    .features .max-width {
+        margin-top: 15rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features .max-width .right {
+        text-align: center;
+        width: 100%;
+    }
+
+    .Resources .max-width .heading {
+        padding-top: 8rem;
+    }
+
+    .footer .max-width .top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .max-width .content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer .max-width .top .right img {
+        width: 36rem;
+    }
+
+    .pricing .max-width .right .f-box2 {
+        right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .home .max-width .right figure img,
+    .features .max-width .left figure img,
+    .footer .max-width .top .right figure img {
+        width: 30rem;
+    }
+
+    .features .max-width .left {
+        width: auto;
+    }
+
+    .footer .max-width .top .left .footer-btn {
+        padding: 1rem 4rem;
+    }
+
+    .footer .max-width .content h3 {
+
+        font-size: 1.4rem
+    }
+
+}
